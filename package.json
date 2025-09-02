@@ -7,7 +7,7 @@
     "start": "node server.js",
     "test": "echo 'Error: no test specified' && exit 1"
   },
-  "author": "John Doe <john.doe@example.com>",
+  "author": "John Doe <john.doe@newexample.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
