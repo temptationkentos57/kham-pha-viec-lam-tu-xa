@@ -16,7 +16,7 @@ mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 
 // Home page
 app.get('/', (req, res) => {
-  res.send('Welcome to Remote Job Exploration!');
+  res.send('Welcome to the Remote Job Exploration Platform!');
 });
 
 app.listen(PORT, () => {
