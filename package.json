@@ -1,0 +1,17 @@
+{
+  "name": "kham-pha-viec-lam-tu-xa",
+  "version": "1.0.0",
+  "description": "Nền tảng kết nối người lao động từ xa và nhà tuyển dụng",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5"
+  }
+}
