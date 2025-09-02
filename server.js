@@ -8,17 +8,17 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
 
-// Kết nối tới MongoDB
+// Connect to MongoDB
 const dbUrl = process.env.MONGODB_URI || 'mongodb://localhost:27017/kham-pha-viec-lam-tu-xa';
 mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log('Kết nối MongoDB thành công'))
+  .then(() => console.log('MongoDB connection successful'))
   .catch(err => console.error(err));
 
-// Trang chủ
+// Home page
 app.get('/', (req, res) => {
-  res.send('Chào mừng đến với Khám Phá Việc Làm Từ Xa!');
+  res.send('Welcome to Remote Job Exploration!');
 });
 
 app.listen(PORT, () => {
-  console.log(`Server đang chạy trên cổng ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
